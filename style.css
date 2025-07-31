@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.container{
+     width: 100%;
+     min-height: 100vh;
+     background: linear-gradient(150deg , rgb(242, 125, 242),rgb(117, 235, 239),rgb(84, 217, 157));
+     color: whitesmoke;
+     padding:5%;
+     
+    
+}
+.container h1{
+     display: flex;
+     align-items: center;
+     font-size: 47px;
+     font-weight: 600;
+}
+.container h1 img{
+    width: 70px;
+}
+.container button img{
+    width: 30px;
+    margin-right: 8px;
+}
+.container button{
+    display: flex;
+    align-items: center;
+    background: linear-gradient(rgba(59, 24, 24, 0.204),rgba(181, 66, 38, 0.445));
+    color: snow;
+    font-size: 20px;
+    outline: 0;
+    border: 0;
+    border-radius: 50px;
+    padding: 20px 30px;
+    margin: 30px 0 20px;
+    cursor: pointer;
+}
+.input-box{
+    position: relative;
+    width: 100%;
+    max-width: 100%;
+    min-height: 150px;
+    background: #fff;
+    color: #333;
+    padding: 20px;
+    margin: 20px 0;
+    outline: none;
+    border-radius: 7px;
+}
+.input-box img{
+    width: 30px;
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    cursor: pointer;
+}
+.notes-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(550px, 1fr));
+    padding: 10px;
+    gap: 30px;
+    padding: 10px;
+    align-items: start;
+    width: 88%;
+    margin-left: 60px;
+   
+}
